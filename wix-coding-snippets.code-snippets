@@ -37,11 +37,29 @@
 			"",
 			"}); // ${1:NameOfElement} OnClick function Ends"
 		]
+	},
+	"Wix Data Query": {
+		"prefix": "Wix Data Query",
+		"description": "Wix Data Query",
+		"scope": "",
+		"body": [
+			"wixData.query('${1:Collection}')",
+			".${2:SearchType}('${3:Field}', '${4:SearchData}')",
+			".find()",
+			".then((results) => {",
+			"if(results.items.length > 0) {",
+			"//Do something with the data found",
+			"} else {",
+			"// handle case where no matching items found",
+			"}",
+			"",
+			"})",
+			".catch((err) => {",
+			"  console.log(err);",
+			"  });", // ${1:Collection} query end"
+			""
+		]
 	}
-
-
-
-
 	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
 	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
 	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
