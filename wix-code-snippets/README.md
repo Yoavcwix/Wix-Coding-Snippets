@@ -23,4 +23,4 @@ Working with a Velo by Wix website - either on your local envrionment or on our 
 
 ## Extension Settings
 
-There is not much to set up. Just go ahead and use. But, if you have any ideas, be in touch with me - [yoavc@wix.com].
+There is not much to set up. Just go ahead and use. But, if you have any ideas, be in touch with me - yoavc@wix.com.
