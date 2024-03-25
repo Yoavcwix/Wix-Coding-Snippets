@@ -1,106 +1,145 @@
 {
-	"Permissions for web.js file": {
-		"prefix": "Wix Permissions for web.js",
-		"description": "Permissions for backend web.js files",
-		"scope": "javascript",
-		"body": [
-			"import { Permissions, webMethod } from 'wix-web-module';",
-			"",
-			"export const ${1:functionName} = webMethod(Permissions.Anyone, () => {",
-			"  ",
-			"});"
-		]
-	},
-	"Wix OnReady": {
-		"prefix": "Wix OnReady",
-		"description": "Wix Code Basic OnReady",
-		"scope": "",
-		"body": [
-			"",
-			"",
-			"//OnReady function - runs when pages complete loading",
-			"\\$w.onReady(function () {",
-			"",
-			"",
-			"",
-			"",
-			"}); //Onready Closed"
-		]
-	},
-	"Wix OnCLick": {
-		"prefix": "Wix OnClick",
-		"description": "Wix Code OnClick Function",
-		"scope": "",
-		"body": [
-			"\\$w('#${1:NameOfElement}').onClick((event) => {",
-			"",
-			"",
-			"}); // ${1:NameOfElement} OnClick function Ends"
-		]
-	},
-	"Wix Data Query": {
-		"prefix": "Wix Data Query",
-		"description": "Wix Data Query",
-		"scope": "",
-		"body": [
-			"//import wixData from 'wix-data';",
-			"",
-			"",
-			"",
-			"wixData.query('${1:Collection}')",
-			".${2:SearchType}('${3:Field}', '${4:SearchData}')",
-			".find()",
-			"  .then((results) => {",
-			"  if(results.items.length > 0) {",
-			"     //Do something with the data found",
-			"  } else {",
-			"    //handle case where no matching items found",
-			"  }",
-			"",
-			"  })",
-			"  .catch((err) => {",
-			"    console.log(err);",
-			"  });  //${1:Collection} query end",
-			""
-		]
-	},
-	"Wix onMouseIn": {
-		"prefix": "Wix onMouseIn",
-		"description": "Wix Code onMouseIn Function",
-		"scope": "",
-		"body": [
-			"\\$w('#${1:NameOfElement}').onMouseIn((event) => {",
-			"",
-			"",
-			"}); // ${1:NameOfElement} onMouseIn function Ends"
-		]
-	},
-	"Wix onMouseOut": {
-		"prefix": "Wix onMouseOut",
-		"description": "Wix Code onMouseOut Function",
-		"scope": "",
-		"body": [
-			"\\$w('#${1:NameOfElement}').onMouseOut((event) => {",
-			"",
-			"",
-			"}); // ${1:NameOfElement} onMouseOut function Ends"
-		]
-	},
-	"Wix fetch getJson": {
-		"prefix": "Wix fetch getJson",
-		"description": "Wix Code fetch getJson Function",
-		"scope": "",
-		"body": [
-			"//import {getJSON} from 'wix-fetch';",
-			"",
-			"getJSON('${1:https://someapiurl.com/endpoint}')",
-			"   .then(json => console.log(json.${2:objectValue}))",
-			"   .catch(err => console.log(err));",
-			"",
-			"// getJson Ends"
-		]
-	}
-
-
-
+  "Permissions for web.js file": {
+    "prefix": "Wix Permissions for web.js",
+    "description": "Permissions for backend web.js files",
+    "scope": "javascript",
+    "body": [
+      "import { Permissions, webMethod } from 'wix-web-module';",
+      "",
+      "export const ${1:functionName} = webMethod(Permissions.Anyone, () => {",
+      "  ",
+      "});"
+    ]
+  },
+  "Wix OnReady": {
+    "prefix": "Wix OnReady",
+    "description": "Wix Code Basic OnReady",
+    "scope": "",
+    "body": [
+      "",
+      "",
+      "//OnReady function - runs when pages complete loading",
+      "\\$w.onReady(function () {",
+      "",
+      "",
+      "",
+      "",
+      "}); //Onready Closed"
+    ]
+  },
+  "Wix OnCLick": {
+    "prefix": "Wix OnClick",
+    "description": "Wix Code OnClick Function",
+    "scope": "",
+    "body": [
+      "\\$w('#${1:NameOfElement}').onClick((event) => {",
+      "",
+      "",
+      "}); // ${1:NameOfElement} OnClick function Ends"
+    ]
+  },
+  "Wix Data Query": {
+    "prefix": "Wix Data Query",
+    "description": "Wix Data Query",
+    "scope": "",
+    "body": [
+      "//import wixData from 'wix-data';",
+      "",
+      "",
+      "",
+      "wixData.query('${1:Collection}')",
+      ".${2:SearchType}('${3:Field}', '${4:SearchData}')",
+      ".find()",
+      "  .then((results) => {",
+      "  if(results.items.length > 0) {",
+      "     //Do something with the data found",
+      "  } else {",
+      "    //handle case where no matching items found",
+      "  }",
+      "",
+      "  })",
+      "  .catch((err) => {",
+      "    console.log(err);",
+      "  });  //${1:Collection} query end",
+      ""
+    ]
+  },
+  "Wix onMouseIn": {
+    "prefix": "Wix onMouseIn",
+    "description": "Wix Code onMouseIn Function",
+    "scope": "",
+    "body": [
+      "\\$w('#${1:NameOfElement}').onMouseIn((event) => {",
+      "",
+      "",
+      "}); // ${1:NameOfElement} onMouseIn function Ends"
+    ]
+  },
+  "Wix onMouseOut": {
+    "prefix": "Wix onMouseOut",
+    "description": "Wix Code onMouseOut Function",
+    "scope": "",
+    "body": [
+      "\\$w('#${1:NameOfElement}').onMouseOut((event) => {",
+      "",
+      "",
+      "}); // ${1:NameOfElement} onMouseOut function Ends"
+    ]
+  },
+  "Wix fetch getJson": {
+    "prefix": "Wix fetch getJson",
+    "description": "Wix Code fetch getJson Function",
+    "scope": "",
+    "body": [
+      "//import {getJSON} from 'wix-fetch';",
+      "",
+      "getJSON('${1:https://someapiurl.com/endpoint}')",
+      "   .then(json => console.log(json.${2:objectValue}))",
+      "   .catch(err => console.log(err));",
+      "",
+      "// getJson Ends"
+    ]
+  },
+  "Wix Repeater OnItemReady": {
+    "prefix": "Wix Repeater OnItemReady",
+    "body": [
+      "\\$w('${1:repeatername}').onItemReady( ($item, itemData, index) => {",
+      "  //Add your code here",
+      "",
+      "} ); //Repeater onItemReady ends"
+    ],
+    "description": "Snippet for Wix Repeater OnItemReady"
+  },
+  "Wix GetSecret Value": {
+    "prefix": "wixGetSecretValue",
+    "body": [
+      "import { secrets } from 'wix-secrets-backend.v2';",
+      "",
+      "",
+      "",
+      "export function ${1:functionName}() {",
+      "  return secrets.getSecretValue('${2:keyName}')",
+      "    .then((secret) => {",
+      "     //Use your secret here;",
+      "",
+      "    })",
+      "    .catch((error) => {",
+      "      console.error(error);",
+      "    });",
+      "}"
+    ],
+    "description": "Snippet for wixGetSecretValue"
+  },
+  "Wix Open Lightbox": {
+    "prefix": "Wix Open Lightbox",
+    "body": [
+      "import wixWindowFrontend from 'wix-window-frontend';",
+      "",
+      "wixWindowFrontend.openLightbox('${1:lightboxName}', ${2:dataObj})",
+      "  .then( (data) => {",
+      "    let receivedData = data;",
+      "  } );"
+    ],
+    "description": "Snippet for wixOpenLightbox"
+  }
 }
