@@ -11,16 +11,23 @@ Start typing the name of the function you wish to use, and the snippet will be a
 Includes most used coding blocks:
 
 - OnReady
-- web module permissions setup
+- onClick
 - onMouseIn
 - onMouseOut
 - Wix Data Query
+- Backend files - web module permissions setup
 - more to be added soon!
 
 ## Requirements
 
 Working with a Velo by Wix website - either on your local envrionment or on our online VSCode server.
 
-## Extension Settings
+## Setup
 
-There is not much to set up. Just go ahead and use. But, if you have any ideas, be in touch with me - yoavc@wix.com.
+On your local VSCode IDE -
+Download the [vsix package file]([url](https://github.com/Yoavcwix/Wix-Coding-Snippets/blob/main/wix-code-snippets/wix-code-snippets-0.0.1.vsix)https://github.com/Yoavcwix/Wix-Coding-Snippets/blob/main/wix-code-snippets/wix-code-snippets-0.0.1.vsix) from this repo. Install it using the VScode extension installer.
+
+Alternatively, and for VSCode Server - all snippets are saved in the file [wix-coding-snippets.code-snippets]([url](https://github.com/Yoavcwix/Wix-Coding-Snippets/blob/main/wix-coding-snippets.code-snippets)https://github.com/Yoavcwix/Wix-Coding-Snippets/blob/main/wix-coding-snippets.code-snippets) and can be copied to your global snippets file in VSCode.
+
+
+
