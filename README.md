@@ -14,7 +14,10 @@ Includes most used coding blocks:
 - onClick
 - onMouseIn
 - onMouseOut
+- Repeater onItemReady
+- Open Lightbox with data object
 - Wix Data Query
+- Secrets - get Secret
 - Backend files - web module permissions setup
 - more to be added soon!
 
@@ -28,6 +31,3 @@ On your local VSCode IDE -
 Download the [vsix package file](https://github.com/Yoavcwix/Wix-Coding-Snippets/blob/main/wix-code-snippets-0.0.1.vsix) from this repo. Install it using the VScode extension installer.
 
 Alternatively, and for VSCode Server - all snippets are saved in the file [wix-coding-snippets.code-snippets](https://github.com/Yoavcwix/Wix-Coding-Snippets/blob/main/wix-coding-snippets.code-snippets) and can be copied to your global snippets file in VSCode.
-
-
-
