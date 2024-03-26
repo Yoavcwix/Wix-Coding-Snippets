@@ -28,6 +28,6 @@ Working with a Velo by Wix website - either on your local envrionment or on our 
 ## Setup
 
 On your local VSCode IDE -
-Download the [vsix package file](https://github.com/Yoavcwix/Wix-Coding-Snippets/blob/main/wix-code-snippets/wix-code-snippets-0.0.1.vsix) from this repo. Install it using the VScode extension installer.
+Download the [vsix package file](https://github.com/Yoavcwix/Wix-Coding-Snippets/blob/main/wix-code-snippets/wix-code-snippets-0.0.2.vsix) from this repo. Install it using the VScode extension installer.
 
 Alternatively, and for VSCode Server - all snippets are saved in the file [wix-coding-snippets.code-snippets](https://github.com/Yoavcwix/Wix-Coding-Snippets/blob/main/wix-code-snippets/wix-coding-snippets.code-snippets) and can be copied to your global snippets file in VSCode.
